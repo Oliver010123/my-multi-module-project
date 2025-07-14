@@ -1,12 +1,16 @@
 ﻿# Maven
-**/target/
-**/.mvn/
-**/mvnw*
+target/
+*.class
+*.jar
+*.war
+*.ear
 
 # IDE
 .idea/
 *.iml
-
-# System
+*.ipr
+*.iws
 .DS_Store
-Thumbs.db
+
+# Logs
+*.log
