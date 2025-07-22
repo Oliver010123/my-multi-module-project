@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -14,7 +15,7 @@ public class FileService {
     @Autowired
     private UploadStrategyContext uploadStrategyContext;
 
-    public String upload(MultipartFile file) throws Exception {
+        public String upload(MultipartFile file) throws Exception {
         return uploadStrategyContext.getStrategy().upload(file);
     }
 
