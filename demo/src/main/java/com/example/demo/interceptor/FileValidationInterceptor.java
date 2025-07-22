@@ -1,3 +1,4 @@
+/*
 package com.example.demo.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -66,4 +67,4 @@ public class FileValidationInterceptor implements HandlerInterceptor {//拦截�
         response.getWriter().write("{\"error\": \"" + message + "\"}");// JSON格式的错误响应
     }
 }
-
+*/

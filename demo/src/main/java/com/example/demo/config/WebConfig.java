@@ -1,3 +1,4 @@
+/*
 package com.example.demo.config;
 
 import com.example.demo.interceptor.FileValidationInterceptor;
@@ -18,3 +19,4 @@ public class WebConfig implements WebMvcConfigurer {//将拦截器注册到Sprin
                 .addPathPatterns("/upload"); // 仅拦截 /upload 请求
     }
 }
+*/
